@@ -1,0 +1,37 @@
+.searchBox {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: Poppins;
+}
+
+.searchTitle {
+  font-size: 32px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.searchNbResultFind {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.searchFilter {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.searchFilter li {
+  margin: 5px;
+}
+
+.searchGrid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

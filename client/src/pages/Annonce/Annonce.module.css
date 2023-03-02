@@ -1,0 +1,77 @@
+.annonceBox {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Poppins;
+}
+
+.annonceBox h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 20px;
+}
+
+.annoncePrice {
+  font-size: 70px;
+  padding: 5px;
+}
+
+.annonceAddress {
+  font-size: 28px;
+  padding: 5px;
+}
+
+.annonceInfos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.annonceDescription {
+  margin-top: 30px;
+  max-width: 475px;
+  padding: 5px;
+}
+
+.annonceContact {
+  display: block;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFC251;
+  color: #fff;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.annonceFirstImage {
+  max-width: 600px;
+}
+
+.annonceMoreImage {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.annonceMoreImage img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 700px) {
+  .annonceFirstImage {
+    width: 100%;
+  }
+  .annonceMoreImage img {
+    width: 75px;
+    height: 75px;
+  }
+}

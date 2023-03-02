@@ -1,0 +1,34 @@
+.LargeInfoBoxBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+  height: 280px;
+  margin: 20px auto;
+  font-family: Poppins;
+  background: #FFC251;
+  padding: 40px;
+  border-radius: 25px;
+}
+
+.LargeInfoBoxTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.LargeInfoBoxText {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .LargeInfoBoxTitle {
+    margin-bottom: 5px;
+    font-size: 28px;
+  }
+
+  .LargeInfoBoxText {
+    font-size: 16px;
+  }
+}

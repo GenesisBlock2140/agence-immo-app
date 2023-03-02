@@ -1,0 +1,41 @@
+.cardBox {
+  max-width: 350px;
+  height: 450px;
+  border: 2px solid #E7E7E7;
+  border-radius: 25px;
+  font-family: Poppins;
+  margin-bottom: 20px;
+}
+
+.cardImg {
+  max-width: 350px;
+  height: 325px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.cardInfos {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.cardAction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+
+.cardBtn {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFC251;
+  color: #fff;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}

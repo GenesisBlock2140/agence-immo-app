@@ -1,0 +1,19 @@
+.headerBox {
+  max-width: 1400px;
+  height: 600px;
+  background: url('../../assets/images/background_eazyloger.png');
+  margin: 0 auto;
+}
+
+
+.headerTitle {
+  font-size: 42px;
+  font-family: Poppins;
+  color: #484848;
+  text-align: center;
+  padding-top: 75px;
+}
+
+@media (max-width: 720px) {
+  
+}

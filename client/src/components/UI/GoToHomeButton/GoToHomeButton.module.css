@@ -1,0 +1,20 @@
+.goToBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 60px;
+  text-decoration: none;
+  color: #3A3A3A;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.goToHomeBox {
+  max-width: 1400px;
+  margin: 12px auto;
+}
+
+.goToHomeArrow {
+  width: 18px;
+  height: 18px;
+}

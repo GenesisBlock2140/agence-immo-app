@@ -1,0 +1,17 @@
+.cardGridBox {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardGridTitle {
+  display: block;
+  max-width: 1400px;
+  margin: 20px auto;
+  font-family: Poppins;
+  font-weight: 500;
+  padding: 10px;
+}

@@ -1,0 +1,87 @@
+.headerBox {
+  max-width: 1400px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.headerBox ul {
+  display: flex;
+}
+
+.headerBox ul li {
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type : none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.headerBox ul li a {
+  color: #3A3A3A;
+}
+
+.headerLogo {
+  font-size: 32px;
+  color: #3A3A3A;
+}
+
+.headerBtn {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFC251;
+  color: #fff;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.headerBtn:hover {
+  background-color: #FFA704;
+  transition: 0.7s;
+}
+
+.burger {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media (max-width: 720px) {
+
+  .headerBox {
+    padding: 0px 5px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .headerBtn, .headerBox ul {
+    display: none;
+  }
+
+  .headerBoxMobile {
+    display: block;
+    height: 300px;
+    text-align: center;
+  }
+
+  .headerBtnMobile, .headerBoxMobile ul {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .headerBox ul li {
+    margin: 15px 0px;
+  }
+
+}
